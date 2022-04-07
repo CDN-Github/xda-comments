@@ -88,7 +88,7 @@ async function run() {
                     'Content-type': 'application/json'
                 },
                 body: JSON.stringify({
-                    content: `<@&912434591472705567> https://github.com/xHyroM/discord-assets/commit/${commitSha}`
+                    content: `<@&912434591472705567> https://github.com/xHyroM/discord-datamining/commit/${commitSha}`
                 })
             }).catch(e => console.log(e))
 
@@ -109,7 +109,7 @@ async function run() {
                 'Content-type': 'application/json'
             },
             body: JSON.stringify({
-                content: `<@&912434624108564542> <@&912434591472705567> https://github.com/xHyroM/discord-assets/commit/${commitSha}`
+                content: `<@&912434624108564542> <@&912434591472705567> https://github.com/xHyroM/discord-datamining/commit/${commitSha}`
             })
         }).catch(e => console.log(e))
         return core.info("created commit comment")
