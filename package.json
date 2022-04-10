@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx esbuild index.js --bundle --platform=node --outfile=dist/index.js --target=node12.0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "@actions/github": "^5.0.1",
     "@adryd325/discord-datamining-lang-differ": "github:adryd325/discordDataminingLangDiffer",
     "hyttpo": "^0.3.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.34"
   }
 }
