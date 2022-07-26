@@ -21,7 +21,7 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.1",
-    "@adryd325/discord-datamining-lang-differ": "github:adryd325/discordDataminingLangDiffer",
+    "@adryd325/discord-datamining-lang-differ": "github:adryd325/discord-datamining-lang-differ",
     "hyttpo": "^0.3.6"
   },
   "devDependencies": {
